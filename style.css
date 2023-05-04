@@ -1,0 +1,241 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Headers{
+    width: 95%;
+    height: 100px;
+}
+.Header1{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+h5{
+    font-size: 12px;
+}
+.leftNav{
+    width: 5%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: chartreuse; */
+}
+.mid{
+    width: 70%;
+    height: 50px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: green; */
+}
+.rightNav{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: chartreuse; */
+}
+.R1{
+    width: 35%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.R2{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header2{
+    width: 100%;
+    height: 50px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Span{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.S1{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    width: 40px;
+    height: 20px;
+    font-size: 13px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop{
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.newshop{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product{
+    width: 18%;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot{
+    width: 40px;
+    height: 20px;
+    font-size: 13px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hotmegamenu{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Hero{
+    width: 95%;
+    height: 60vh;
+    margin-top: 8px;
+    /* background-color: gainsboro; */
+    background-image: url(./pexels-amir-seilsepour-3912572.jpg);
+    background-size: cover;
+}
+.lefthero{
+    width: 50%;
+    height: 60vh;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.buttons{
+    background-color: black;  
+    color: white; 
+    font-size: 12px;
+    width: 120px; 
+    height: 40px; 
+    margin-top: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.Footer{
+    width: 95%;
+    height: 18vh;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftFooter{
+    width: 49%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gainsboro;
+}
+.rightFooter{
+    width: 49%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gainsboro;
+}
+.left{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: black;  
+    color: white; 
+    font-size: 10px;
+    width: 80px; 
+    height: 20px; 
+    margin-top: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
